@@ -1,9 +1,10 @@
 #import modules
 import pyforest
 import pickle
+import pandas as pd
 
 #load dataset
-df = pd.read_csv(r"C:\Users\User\Documents\model\BankNote_Authentication.csv")
+df = pd.read_csv(r"C/Documents/GitHub/Flask-based-Deployment-of-Machine-Learning-Models/BankNote_Authentication.csv")
 
 #read dataset
 print(df.head())

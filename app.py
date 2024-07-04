@@ -13,7 +13,7 @@ model = pickle.load(open('model.pkl', 'rb'))
 def Home():
 	return render_template('index.html')
 
-@app.route('/predict', methods = ['POST'])
+@app.route('/predic', methods = ['POST'])
 def predict():
 	#convert independent values to float and save
 	float_features = [float(x) for x in request.form.values()]
